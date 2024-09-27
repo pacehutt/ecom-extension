@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     if (!LEVI_DOMAINS.some((domain) => tab.url.includes(domain))) {
       showMessage(
-        "Please visit Levi's website to extract products. <a href='https://levi.com' target='_blank'>Go to Levi's</a>"
+        "Please visit Levi's website to extract products. <a href='https://levi.in' target='_blank'>Go to Levi's</a>"
       );
       return;
     }
