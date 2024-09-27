@@ -1,0 +1,13 @@
+{
+  "name": "Shopyt",
+  "version": "1.0",
+  "description": "Get Similar Products at Best Prices",
+  "manifest_version": 3,
+
+  "permissions": ["activeTab", "scripting"],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Shopyt"
+  }
+}
