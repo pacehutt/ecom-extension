@@ -116,12 +116,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
   }
 
-  elements.backButton.addEventListener("click", () => {
-    elements.similarProductsDiv.classList.add("hidden");
-    elements.productList.classList.remove("hidden");
-    elements.backButton.classList.add("hidden");
-  });
-
   function showMessage(message) {
     elements.messageDiv.innerHTML = message;
     elements.messageDiv.classList.remove("hidden");
@@ -131,4 +125,10 @@ document.addEventListener("DOMContentLoaded", async function () {
     elements.messageDiv.innerHTML = "";
     elements.messageDiv.classList.add("hidden");
   }
+
+  elements.backButton.addEventListener("click", () => {
+    elements.similarProductsDiv.classList.add("hidden");
+    elements.productList.classList.remove("hidden");
+    elements.backButton.classList.add("hidden");
+  });
 });
